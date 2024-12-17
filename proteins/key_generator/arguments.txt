@@ -1,0 +1,12 @@
+## Key Generation
+python key_generator/drug/key_triplets_drug.py key_generator/drug/ drug_csv/sample_details.csv drug_csv/drug_atom_lexical_txt.csv pdb_files proteins 
+
+## Using for debugging
+key_generator/drug/ drug_csv/sample_details.csv drug_csv/drug_atom_lexical_txt.csv pdb_files proteins
+
+## Calculating the key frequency 
+ python key_generator/drug/key_frequency_drug.py -r key_generator/drug/ -p proteins
+
+
+
+
